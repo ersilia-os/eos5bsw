@@ -1,1 +1,2 @@
 name,type,direction,description
+retention_proba,float,high,Probability of the compound being retained inside E.coli
