@@ -2,6 +2,7 @@
 
 A high-throughput LC/MS assay was used to measure uptake and retention of ca. 13, 000 small molecules. A total of 6, 416 compounds were classified either as retention-positive or -negative. Of these 45% were positives in the TolC mutant, with 60% not retained in the wild-type strain, indicating efficient efflux. Here, we use our baseline modeling tool LazyQSAR to build a retention prediction model based on this data.
 
+This model was incorporated on 2025-12-12.
 
 
 ## Information
@@ -34,8 +35,11 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5bsw.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5bsw.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `8`
+- **Environment Size (Mb):** `1916`
 
 
 ### References
