@@ -1,6 +1,6 @@
 Identifier: eos5bsw
 Slug: ecoli-retention
-Status: In progress
+Status: Ready
 Title: Small molecule retention by Gram-negative bacteria based on a large-scale
   LC/MS screen
 Description: A high-throughput LC/MS assay was used to measure uptake and 
@@ -36,6 +36,18 @@ Publication: https://www.nature.com/articles/s41598-025-10208-6
 Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
 Incorporation Date: '2025-12-12'
+Last Packaging Date: '2025-12-15'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5bsw.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos5bsw
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 8.0
 Environment Size: 1916.0
+Image Size: 1949.71
+Computational Performance 1: 32.29
+Computational Performance 2: 22.65
+Computational Performance 3: 27.33
+Computational Performance 4: 121.3
+Computational Performance 5: 544.98
