@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
-- **Publication**: [https://www.nature.com/articles/s41598-025-10208-6](https://www.nature.com/articles/s41598-025-10208-6)
+- **Publication**: [https://doi.org/10.1038/s41598-025-10208-6](https://doi.org/10.1038/s41598-025-10208-6)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
