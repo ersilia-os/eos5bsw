@@ -1,6 +1,6 @@
 # Small molecule retention by Gram-negative bacteria based on a large-scale LC/MS screen
 
-A high-throughput LC/MS assay was used to measure uptake and retention of ca. 13, 000 small molecules. A total of 6, 416 compounds were classified either as retention-positive or -negative. Of these 45% were positives in the TolC mutant, with 60% not retained in the wild-type strain, indicating efficient efflux. Here, we use our baseline modeling tool LazyQSAR to build a retention prediction model based on this data.
+Estimates how much compound is retained inside Gram-negative bacteria, the property that decides whether an otherwise potent molecule ever reaches its target. Le Goff and colleagues built a high-throughput LC/MS assay to measure intracellular levels directly, generating retention data on a scale that earlier one-compound-at-a-time methods could not reach, and used it to train predictors. Retention combines uptake with efflux, so a high score indicates the compound stays inside rather than that it simply enters.
 
 This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of the molecule being retained inside E.coli
+- **Interpretation:** Probability that a compound is retained inside Gram-negative bacteria.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
