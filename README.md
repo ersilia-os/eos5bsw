@@ -2,7 +2,7 @@
 
 Predicts whether a small molecule accumulates inside Escherichia coli, the barrier that decides if an otherwise potent compound ever reaches its target in a Gram-negative cell. Le Goff and colleagues at Idorsia screened 13,056 compounds by LC/MS against a wild-type strain and an efflux-deficient TolC mutant and labelled 6,416 of them retention-positive or negative; 60 per cent of the positives in the mutant were lost from the wild type, showing how much efflux costs. Ersilia trained this classifier on that published data with its LazyQSAR tool.
 
-This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
+This model was incorporated on 2025-12-12.Last packaged on 2026-10-28.
 
 ## Information
 ### Identifiers
@@ -41,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `37`
 - **Environment Size (Mb):** `7516`
-- **Image Size (Mb):** `1949.71`
+- **Image Size (Mb):** `7592.59`
 
 **Computational Performance (seconds):**
-- 10 inputs: `32.29`
-- 100 inputs: `27.33`
-- 10000 inputs: `544.98`
+- 10 inputs: `39.41`
+- 100 inputs: `31.33`
+- 10000 inputs: `713.53`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
