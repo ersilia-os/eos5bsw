@@ -3,13 +3,14 @@ Slug: ecoli-retention
 Status: In maintenance
 Title: Small molecule retention by Gram-negative bacteria based on a large-scale
   LC/MS screen
-Description: Predicts whether a small molecule accumulates inside Escherichia coli,
-  the barrier that decides if an otherwise potent compound ever reaches its target
-  in a Gram-negative cell. Le Goff and colleagues at Idorsia screened 13,056 compounds
-  by LC/MS against a wild-type strain and an efflux-deficient TolC mutant and labelled
-  6,416 of them retention-positive or negative; 60 per cent of the positives in the
-  mutant were lost from the wild type, showing how much efflux costs. Ersilia trained
-  this classifier on that published data with its LazyQSAR tool.
+Description: Predicts whether a small molecule accumulates inside Escherichia 
+  coli, the barrier that decides if an otherwise potent compound ever reaches 
+  its target in a Gram-negative cell. Le Goff and colleagues at Idorsia screened
+  13,056 compounds by LC/MS against a wild-type strain and an efflux-deficient 
+  TolC mutant and labelled 6,416 of them retention-positive or negative; 60 per 
+  cent of the positives in the mutant were lost from the wild type, showing how 
+  much efflux costs. Ersilia trained this classifier on that published data with
+  its LazyQSAR tool.
 Deployment:
   - Local
 Source: Local
@@ -24,9 +25,9 @@ Output:
 Output Dimension: 1
 Output Consistency: Fixed
 Interpretation: Rank score of retention inside Escherichia coli combining uptake
-  with escape from efflux, calibrated against the Ersilia reference library of 50K
-  compounds. A score above 0.65 beats 99% of that library. Trained on 2879 retained
-  compounds against 3528 non-retained.
+  with escape from efflux, calibrated against the Ersilia reference library of 
+  50K compounds. A score above 0.65 beats 99% of that library. Trained on 2879 
+  retained compounds against 3528 non-retained.
 Tag:
   - Antimicrobial activity
   - Gram-negative bacteria
