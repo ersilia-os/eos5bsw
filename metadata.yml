@@ -1,6 +1,6 @@
 Identifier: eos5bsw
 Slug: ecoli-retention
-Status: In maintenance
+Status: Ready
 Title: Small molecule retention by Gram-negative bacteria based on a large-scale
   LC/MS screen
 Description: Predicts whether a small molecule accumulates inside Escherichia 
@@ -43,7 +43,7 @@ Source Code: https://github.com/ersilia-os/lazy-qsar
 License: GPL-3.0-or-later
 Contributor: miquelduranfrigola
 Incorporation Date: '2025-12-12'
-Last Packaging Date: '2025-12-15'
+Last Packaging Date: '2026-10-28'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5bsw.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5bsw
@@ -52,9 +52,9 @@ Docker Architecture:
   - ARM64
 Model Size: 37.0
 Environment Size: 7516.0
-Image Size: 1949.71
-Computational Performance 1: 32.29
-Computational Performance 2: 22.65
-Computational Performance 3: 27.33
-Computational Performance 4: 121.3
-Computational Performance 5: 544.98
+Image Size: 7592.59
+Computational Performance 1: 39.41
+Computational Performance 2: 30.29
+Computational Performance 3: 31.33
+Computational Performance 4: 156.41
+Computational Performance 5: 713.53
