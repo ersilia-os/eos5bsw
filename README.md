@@ -12,9 +12,9 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Domain
 - **Task:** `Annotation`
 - **Subtask:** `Activity prediction`
-- **Biomedical Area:** `Antimicrobial resistance`
-- **Target Organism:** `Escherichia coli`, `Gram-negative bacteria`
-- **Tags:** `Antimicrobial activity`
+- **Biomedical Area:** `Antimicrobial resistance`, `Diarrheal diseases`
+- **Target Organism:** `Escherichia coli`
+- **Tags:** `Antimicrobial activity`, `Gram-negative bacteria`
 
 ### Input
 - **Input:** `Compound`
@@ -23,12 +23,12 @@ This model was incorporated on 2025-12-12.Last packaged on 2025-12-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of a compound being retained inside Escherichia coli, combining uptake with escape from efflux.
+- **Interpretation:** Rank score of retention inside Escherichia coli combining uptake with escape from efflux, calibrated against the Ersilia reference library of 50K compounds. A score above 0.65 beats 99% of that library. Trained on 2879 retained compounds against 3528 non-retained.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| retention_proba | float | high | Probability of the compound being retained inside E.coli |
+| retention_rank | float | high | Rank score of the compound's predicted retention inside Escherichia coli. Calibrated against 50K compounds from the Ersilia reference library so that a score of 0.65 is better than 99% of them. Recommended threshold: 0.65. |
 
 
 ### Source and Deployment
