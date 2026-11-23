@@ -3,7 +3,7 @@
 Predicts whether a small molecule accumulates inside Escherichia coli, the barrier that decides if a potent compound ever reaches its target in a Gram-negative cell. Le Goff and colleagues at Idorsia screened 13,056 compounds by mass spectrometry against a wild-type strain and an efflux-deficient TolC mutant and labelled 6,416 of them retention-positive or negative. Ersilia trained a LazyQSAR classifier on 6,407 of these, 2,879 retained, with a five-fold out-of-fold AUROC of 0.89. Retention in E. coli does not by itself confer antibacterial activity.
 
 This model was incorporated on 2025-12-12.
-Last packaged on 2026-10-28.
+Last packaged on 2026-11-23.
 
 ## Information
 ### Identifiers
@@ -43,12 +43,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `42`
 - **Environment Size (Mb):** `6954`
-- **Image Size (Mb):** `7592.59`
+- **Image Size (Mb):** `3287.78`
 
 **Computational Performance (seconds):**
-- 10 inputs: `39.41`
-- 100 inputs: `31.33`
-- 10000 inputs: `713.53`
+- 10 inputs: `30.88`
+- 100 inputs: `22.78`
+- 10000 inputs: `95.4`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-qsar](https://github.com/ersilia-os/lazy-qsar)
