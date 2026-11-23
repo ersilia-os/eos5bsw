@@ -50,7 +50,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos5bsw
 Docker Architecture:
   - AMD64
   - ARM64
-Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos5bsw_v2.sif
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos5bsw_v3.sif
 Model Size: 42.0
 Environment Size: 6954.0
 Image Size: 3287.78
